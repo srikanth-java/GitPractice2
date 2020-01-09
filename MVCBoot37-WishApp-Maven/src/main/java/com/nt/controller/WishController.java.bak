@@ -12,6 +12,7 @@ import com.nt.service.WishService;
 public class WishController {
 	@Autowired
 	 private WishService service;
+	//HandlerMapping maps incoming request uri with method of controller class
 	@RequestMapping("/wish.htm")
 	public  String  process(Map<String,Object> map){
 		String msg=null;

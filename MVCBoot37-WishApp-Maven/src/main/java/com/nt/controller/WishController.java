@@ -21,4 +21,9 @@ public class WishController {
 		map.put("wMsg",msg);
 		return "result";
 	}//method
+
+	public String m1()
+	{
+		return "method1";
+	}
 }//class
